@@ -1,0 +1,17 @@
+.container{
+    margin: 0;
+    max-width: 100%;
+}
+
+.name{
+    background-color: dimgray;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.contact{
+    background: darkgray;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    overflow-wrap: break-word;
+}
