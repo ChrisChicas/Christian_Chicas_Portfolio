@@ -1,17 +1,50 @@
+body{
+    background: #eff6e0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-primary{
+    --bs-btn-bg: #598392;
+    --bs-btn-border-color: #598392;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #598392;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-active-bg: #598392;
+    --bs-btn-active-border-color: white;
+}
+
+.contact{
+    background: #124559;
+    color: white;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    overflow-wrap: break-word;
+}
+
+.contact a{
+    color: white;
+}
+
 .container{
     margin: 0;
     max-width: 100%;
 }
 
 .name{
-    background-color: dimgray;
+    background-color: #01161e;
+    color: white;
     padding-top: 1em;
     padding-left: 1em;
 }
 
-.contact{
-    background: darkgray;
+.name img{
+    width: 9em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.projects{
+    color: black;
     padding-top: 0.5em;
     padding-left: 1em;
-    overflow-wrap: break-word;
 }
