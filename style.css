@@ -1,24 +1,31 @@
+:root{
+    --main-blue: #01161e;
+    --main-bg: #eff6e0;
+    --sub-blue: #124559;
+    --sub-btn: #598392;
+}
+
 body{
-    background: #eff6e0;
+    background: var(--main-bg);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-wrap: break-word;
 }
 
 .btn-primary{
-    --bs-btn-bg: #598392;
-    --bs-btn-border-color: #598392;
+    --bs-btn-bg: var(--sub-btn);
+    --bs-btn-border-color: var(--sub-btn);
     --bs-btn-hover-color: white;
-    --bs-btn-hover-bg: #598392;
+    --bs-btn-hover-bg: var(--sub-btn);
     --bs-btn-hover-border-color: white;
-    --bs-btn-active-bg: #598392;
+    --bs-btn-active-bg: var(--sub-btn);
     --bs-btn-active-border-color: white;
 }
 
 .contact{
-    background: #124559;
+    background: var(--sub-blue);
     color: white;
     padding-top: 0.5em;
     padding-left: 1em;
-    overflow-wrap: break-word;
 }
 
 .contact a{
@@ -31,7 +38,7 @@ body{
 }
 
 .name{
-    background-color: #01161e;
+    background-color: var(--main-blue);
     color: white;
     padding-top: 1em;
     padding-left: 1em;
@@ -45,6 +52,9 @@ body{
 
 .projects{
     color: black;
-    padding-top: 0.5em;
-    padding-left: 1em;
+    padding: 0.5em 1em 0;
+}
+
+.projects h2, .projects h4{
+    margin-bottom: 0.5em;
 }
