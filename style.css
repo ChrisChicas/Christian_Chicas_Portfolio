@@ -37,6 +37,10 @@ body{
     max-width: 100%;
 }
 
+.date{
+    color: var(--main-blue);
+}
+
 .name{
     background-color: var(--main-blue);
     color: white;
@@ -53,6 +57,10 @@ body{
 .projects{
     color: black;
     padding: 0.5em 1em 0;
+}
+
+.projects a{
+    color: var(--sub-blue);
 }
 
 .projects h2, .projects h4{
